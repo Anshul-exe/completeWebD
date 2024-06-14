@@ -9,14 +9,11 @@ div{
     font-family: "Libre Baskerville", serif;
     text-align: center;
 }
-.class{
-  border: 5px solid white;
-  width: 100%;
-}
 h1{
     text-transform: uppercase;
     font-size: 3rem;
     }
 .poster{
     border: 5px solid white;
+    width: 100%;
 }
