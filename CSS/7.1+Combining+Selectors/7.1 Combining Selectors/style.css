@@ -1,0 +1,18 @@
+h1, h2{ /*simple grouping*/
+    color: blueviolet;
+}
+.box > p{ /*parent to child*/
+    color: firebrick;
+}
+.box li{ /*ancestor to child*/
+    color: blue;
+}
+li.done{ /*chaining*/
+    color: seagreen;
+}
+body > ul .done{ /*combining combiners (name and then chaining*/
+    font-size: 0.5rem;
+    color: blue;
+}
+
+/* ul p.done SAME AS ABOVE*/
