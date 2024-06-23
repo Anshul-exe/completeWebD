@@ -1,0 +1,27 @@
+header{
+    background-color: rgb(21, 21, 21);
+}
+.nav-pills .nav-link{
+    color: #B9B4C7;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.top-container{
+    background-image: url(./assets/header.jpg);
+    width: 100%;
+    height: 780px;
+}
+.title-text{
+    color: #B9B4C7;
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+.h2{
+    display: block;
+    height: 132px;
+}
+.h3{
+    height: 100px;
+}
