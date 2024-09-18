@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 const port = 3000;
-const bandName = "";
+let bandName = "";
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/submit", (req, res) => {
-  res.sendFile(`<h1>Your Band Name is:</h1><h2>${bandName} </h2>`);
+  res.send(`<h1>Your band name is:</h1><h2>${bandName}✌️</h2>`);
 });
 
 app.listen(port, () => {
